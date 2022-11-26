@@ -118,3 +118,19 @@ button {
 }
 
 /* Thorquote Section */
+.thorquote {
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+}
+.thorquote .container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.testimonial{
+    color: black;
+    width: 60%;
+    font-size: 44px;
+}
