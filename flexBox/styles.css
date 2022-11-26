@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: ;
+
+}
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px;
+    /* Declare Flexbox */
+    display: flex;
+    /* Declare alignment on horizontal axis */
+    justify-content: center;
+
+}
+.menu {
+    border: 1px solid #fff;  /* For debugging */
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-container {
+    color: #fff;
+    background-color: #7aa6d8;  /* Blue */
+    padding: 20px;
+    /* Declare Flexbox */
+    display: flex;
+    /* Declare alignment on horizontal axis */
+    justify-content: center;
+}
+.body {
+    display: flex;
+    padding: 20px;
+    color: aquamarine;
+    justify-content: center;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+.login {
+    margin-left: 20px;
+}
