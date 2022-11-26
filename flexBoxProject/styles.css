@@ -78,32 +78,43 @@ button {
 }
 
 /* Third section styles */
+
+.randominfo .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .randominfo h1 {
     font-size: 44px;
     color: black;
     display: flex;
     justify-content: center;
-    padding-top: 25px;
 }
 
 .randominfo .container {
     display: flex;
-    height: 250px;
+    height: 35vh;
 }
-
+/* Percent (%) is "relative to the parent element" */
+/* vw, vh are relative to the viewport */
 .randominfo .container .box {
     display: flex;
-    width: 10%;
-    height: 100px;
+    width: 16vw;
+    height: 65%;
+    padding: 10px;
 }
 
 .randominfo .container .box p {
     color: black;
-    height: 20%;
+    height: 21.5%;
+    text-align: center;
 }
 
 .randominfo .container .box img {
     width: 100%;
-    height: 80%;
+    height: 78%;
+    border: solid 4px dodgerblue;
+    border-radius: 5%;
 }
 
+/* Thorquote Section */
