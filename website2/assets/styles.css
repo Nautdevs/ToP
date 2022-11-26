@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* class selector*/
+.alert-text {
+    color: aqua;
+}
+
+/*element selector */
+div {
+    color: rgb(19, 224, 81);
+}
+
+
+p {
+    color: red;
+}
+
+/* ID selector */
+#title {
+    background-color: aqua;
+}
