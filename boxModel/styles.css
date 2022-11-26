@@ -16,5 +16,6 @@
     width: 100px;
     border:30px solid magenta;
     margin: 60px;
+    box-sizing: border-box;
 }
 /* Margin collapses between two elements */
