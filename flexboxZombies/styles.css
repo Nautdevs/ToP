@@ -1,0 +1,21 @@
+/* Leave 5vh for header & footer */
+* {
+    background-color: slategray;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    border: 4px solid rgb(172, 72, 72);
+    justify-content:
+}
+
+.item {
+    border: 4px solid rgb(46, 108, 193);
+    width: 10px;
+    height: 15%;
+}
+/* Turn it on --> aim --> justify --> align */
+/* display: --> flex-direction: --> justify-content: --> align-content:  */
