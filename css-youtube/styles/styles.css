@@ -1,0 +1,31 @@
+* {
+    color:blueviolet;
+}
+
+div {
+    color:aquamarine;
+    height:auto;
+    width: 1000px;
+
+}
+
+.leading-heading {
+    color: antiquewhite;
+}
+
+.big-heading {
+    color: red;
+}
+
+#first-paragraph {
+    background-color: rgb(195, 48, 232);
+}
+
+img {
+    height: 900px;
+    width: max-content;
+}
+
+
+
+
